@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.tarjetas {
+    color: #da6622;
+    font-size: large;
+}
+
+header, footer {
+    background-color: #da6622;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#miHeader {
+    background-color: #da6622;
+    background-size: cover; /* Ajusta la imagen para que cubra todo el encabezado */
+    background-position: center; /* Centra la imagen */
+    height: 200px; /* Ajusta la altura según sea necesario */
+    text-align: center; /* Centra el texto horizontalmente */
+    color: white; /* Cambia el color del texto para que sea legible sobre el fondo */
+}
+
+header h1 {
+    margin: 0;
+}
+
+#titulo {
+    width: 300px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2em 0;
+    padding: 1em;
+}
+
+section h2 {
+    color: #f0f0f0;
+}
+
+.pokemon-card {
+    background-color: #f0f0f0;
+    color: #da6622;
+    border: 1px solid #da6622;
+    border-radius: 8px;
+    padding: 0.5em;
+    text-align: center;
+    margin: 1em 0;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.3s, border 0.3s, box-shadow 0.3s, transform 0.3s, max-height 0.3s;
+    overflow: hidden;
+    max-height: 415px; /* Altura inicial */
+}
+
+.pokemon-card:hover {
+    background-color: #da6622;
+    color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    max-height: 645px; /* Altura expandida */
+}
+
+.pokemon-card img {
+    background-color: #f5f4f1;
+    max-width: 100%;
+    height: auto;
+    border-radius: 1%;
+}
+
+footer p {
+    margin: 0.5em 0;
+    padding: 1em 0;
+    width: 100%; /* Abarcar todo el ancho */
+    
+}
+
+#fire {
+    border-radius: 20px;
+    width: 30px;
+}
+
+#flying {
+    border-radius: 20px;
+    width: 30px;
+}
+
+#fight {
+    border-radius: 20px;
+    width: 30px;
+}
+
+@media (max-width: 768px) {
+    header, nav, main, footer {
+        padding: 10px;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #titulo {
+        width: 200px;
+    }
+
+    .pokemon-card {
+        max-width: 100%; /* Asegúrate de que las tarjetas se ajusten al ancho de la pantalla en dispositivos móviles */
+    }
+}
+

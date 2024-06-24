@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #042f3b;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2em 0;
+    padding: 1em;
+}
+
+section h2 {
+    color: #f0f0f0;
+}
+
+.pokemon-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1em;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.pokemon-card img {
+    background-color: #f5f4f1;
+    max-width: 100%;
+    height: auto;
+    border-radius: 1%;
+}
+#tierra{
+    background-color: #4e3b04;
+}
+#tierra img{
+    background-color: #7a5d05;
+}
+
+
+#agua{
+    background-color: #054a5e;
+}
+
+#agua img{
+    background-color: #087e9e;
+}
+
+#fuego{
+    background-color: #da6622;
+}
+
+#fuego img{
+    background-color: #b63704;
+}
+
+#electrico{
+    background-color: #caa708;
+}
+
+#electrico img{
+    background-color: #f3d00d;
+}
+
+#planta{
+    background-color: #0dbd5c;
+}
+
+#planta img{
+    background-color: #0dda17;
+}
+
+footer p {
+    margin: 0.5em 0;
+}
+
+@media (max-width: 768px) {
+    header, nav, main, footer {
+      padding: 10px;
+    }
+  
+    nav li {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    #titulo{
+        width: 200px;
+    }
+  }
