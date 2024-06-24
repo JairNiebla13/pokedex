@@ -87,7 +87,7 @@ section h2 {
     border: 1px solid #f0f0f0;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     transform: scale(1.05);
-    max-height: 680px; /* Altura expandida */
+    max-height: 695px; /* Altura expandida */
 }
 
 .pokemon-card img {
